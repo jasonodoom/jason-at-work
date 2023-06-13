@@ -5,8 +5,9 @@
 
 pkgs.mkShell {
   packages = [
-    (pkgs.python311.withPackages (ps: [
+    (pkgs.python3.withPackages (ps: [
       ps.pip
+      ps.flake8
       ps.ipython
       ps.semver
       ps.virtualenv
