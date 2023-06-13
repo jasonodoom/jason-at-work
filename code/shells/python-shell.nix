@@ -21,6 +21,11 @@ pkgs.mkShell {
       ps.nodeenv
       ps.more-itertools
       ps.iniconfig
+      ps.contextlib2
+      ps.schema
+      ps.idna
+      ps.identify
+      ps.exceptiongroup
     ]))
 
     pkgs.curl
