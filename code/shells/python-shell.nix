@@ -28,6 +28,7 @@ pkgs.mkShell {
       ps.idna
       ps.identify
       ps.exceptiongroup
+      ps.boto3
     ]))
 
     pkgs.curl
