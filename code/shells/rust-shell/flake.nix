@@ -28,7 +28,7 @@
           RUST_SRC_PATH = "${toolchain}/lib/rustlib/src/rust/library";
 
           shellHook = ''
-            alias ls=ls -ltra
+            alias ls=ls l
           '';
         };
       };
