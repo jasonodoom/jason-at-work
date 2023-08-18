@@ -4,7 +4,8 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages =
-    [ pkgs.bash-completion
+    [ pkgs.awscli2
+      pkgs.bash-completion
       pkgs.coreutils-full # For shred and more
       pkgs.tree
       pkgs.wget
