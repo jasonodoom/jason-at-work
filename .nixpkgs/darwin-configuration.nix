@@ -7,6 +7,7 @@
     [ pkgs.awscli2
       pkgs.bash-completion
       pkgs.coreutils-full # For shred and more
+      pkgs.direnv
       pkgs.tree
       pkgs.wget
       pkgs.krb5
