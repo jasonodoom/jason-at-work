@@ -24,7 +24,6 @@
       pkgs.shellcheck
       pkgs.vim
       pkgs.tmux
-      pkgs.vscodium
       pkgs.terraform
       pkgs.packer
       pkgs.ansible
