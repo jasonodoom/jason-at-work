@@ -26,6 +26,7 @@
             tree
             wget
             krb5
+            k9s
             p11-kit
             openssh
             gnupg
@@ -44,6 +45,7 @@
             pass
             go
             nodejs
+            yarn
           ];
         };
       };
