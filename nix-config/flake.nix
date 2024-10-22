@@ -44,6 +44,7 @@
             ansible-lint
             pass
             go
+            jq
             nodejs
             yarn
           ];
