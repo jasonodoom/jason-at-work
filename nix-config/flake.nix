@@ -47,6 +47,7 @@
             eksctl
             kustomize
             kubectl
+            stern
             k9s
             helm
             ansible
